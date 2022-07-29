@@ -25,3 +25,84 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+
+.father {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+ 
+}
+
+.header ul {
+  list-style-type: none;
+ 
+}
+
+.header ul li {
+  display: inline;
+ 
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: rgb(90, 90, 90);
+}
+
+.footer {
+  display: flex;
+  background-color: #eeeeee;
+  
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer ul li {
+  display: inline;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: rgb(90, 90, 90);
+}
+
+.left-links {
+  flex: 1 1 auto;
+  width: 50%;
+  padding: 0;
+}
+
+.left-links li {
+  padding-left: 20px;
+}
+
+.right-links {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.right-links li {
+  padding-right: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons button {
+  padding: 8px;
+ 
+}
+
